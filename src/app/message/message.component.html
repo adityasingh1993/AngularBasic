@@ -1,0 +1,5 @@
+<div class="div-wong-card mdl-card mdl-shadow--3dp" id="divid">Wong Message
+<input type="text" class="form-control" [(ngModel)]="userName" >
+<p>{{userName}}</p>
+<button class="mdl-button mdl-js-button mdl-button--raised" (click)="resetUserName()" [disabled]="!enableUsername()">click me</button>
+</div>
